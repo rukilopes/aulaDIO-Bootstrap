@@ -1,0 +1,20 @@
+
+.navbar {
+    background-color: #15202b;
+}
+
+body{
+    background: #E4E5E6;
+}
+
+.navbar-text {
+    color: white;
+}
+
+.quem-somos {
+    background-color: rgb(117, 117, 182);
+}
+
+.margin{
+    padding-top: 50px;
+}
