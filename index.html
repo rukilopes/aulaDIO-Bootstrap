@@ -11,20 +11,20 @@
 
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light margin nav_rodapé nav-links">
             <a class="navbar-brand" href="#"><img src="img/dio.png" width="150"></a> <!--Logo na navbar-->
         
 
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="#quemsomos">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Parceiros</a>
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
+                        <a class="nav-link" href="#serviços">Serviços</a>
                     </li>
                 </ul>
             </div>
@@ -35,10 +35,78 @@
                 <!--fluid para ocupar horizontalmente a página inteira-->
                 <!--Text center para centralizar o texto dentro do container-->
                 <!--Margin cria um espaçamento externo e o Padding cria espaçamento interno-->
-                <h3>Quem somos</h3>
-                <img src="img/Time.jpg" width="400" height="400">
+                <h3 class="margin">Quem somos</h3>
+                <img src="img/Time.jpg" class="rounded-circle" width="400" height="400">
+                <h4 class="margin">Somos um time comprometido com os resultados</h4>
             </div>
         </section>
+
+        <section id="parceiros">
+            <div class="container-fluid parceiros text-center margin"> 
+                <h3 class="margin">Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-4"> <!--lg de largo e md de médio, largura da coluna-->
+                            <img src="img/dio.png" width="100%">
+                        </div>
+
+                        <div class="col-lg-4"> <!--lg de largo e md de médio, largura da coluna-->
+                            <img src="img/dio.png" width="100%">
+                        </div>
+
+                        <div class="col-lg-4"> <!--lg de largo e md de médio, largura da coluna-->
+                            <img src="img/dio.png" width="100%">
+                        </div>
+
+                    </div>
+                </div>
+ 
+            </div>
+        </section>
+
+        <section id="serviços">
+            <div class="container-fluid serviços text-center margin"> 
+                <h3 class="margin">Serviços</h3>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-4"> <!--6 de 12-->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit 
+                                amet dolor cursus, sodales ligula id, faucibus magna. Cras sit 
+                                amet lacus id nisi faucibus feugiat at at ante. Praesent.
+                            </p>
+                            <img src="img/Site.jpg" width="100%">
+                        </div>
+
+                        <div class="col-lg-4"> 
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit 
+                                amet dolor cursus, sodales ligula id, faucibus magna. Cras sit 
+                                amet lacus id nisi faucibus feugiat at at ante. Praesent.
+                            </p>
+                            <img src="img/App.jpg" width="100%">
+                        </div>
+
+                        <div class="col-lg-4"> 
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit 
+                                amet dolor cursus, sodales ligula id, faucibus magna. Cras sit 
+                                amet lacus id nisi faucibus feugiat at at ante. Praesent.
+                            </p>
+                            <img src="img/Site2.jpg" width="100%">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid margin text-center nav_rodapé">
+            <p>Desenvolvido por Emily Piazza Lopes</p>
+        </footer>
+
     </body>
 
 </html>

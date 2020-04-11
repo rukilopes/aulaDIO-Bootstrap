@@ -1,20 +1,29 @@
 
-.navbar {
-    background-color: #15202b;
-}
-
-body{
-    background: #E4E5E6;
-}
-
-.navbar-text {
+body {
+    font-family: Roboto;
+    font-weight: 300;
     color: white;
+}
+
+.nav_rodapé {
+    background-color: #7ea3c9;
+    font-weight: 800;
 }
 
 .quem-somos {
     background-color: rgb(117, 117, 182);
 }
 
-.margin{
-    padding-top: 50px;
+.margin {
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
+
+.parceiros {
+    background-color: teal;
+}
+
+.serviços {
+    background-color: tomato;
+}
+
